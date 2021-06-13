@@ -7,9 +7,21 @@ namespace Service.Hubs
 {
     public class ResultModel
     {
+        /// <summary>
+        /// 请求状态
+        /// </summary>
         public bool Status { get; set; }
+        /// <summary>
+        /// 状态码
+        /// </summary>
         public int StatusCode { get; set; }
+        /// <summary>
+        /// 消息
+        /// </summary>
         public string Message { get; set; }
+        /// <summary>
+        /// 数据
+        /// </summary>
         public object Data { get; set; }
     }
 
